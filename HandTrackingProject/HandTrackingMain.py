@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import time
 
-cap = cv2.VideoCapture(1) #video objectimizi oluşturduk
+cap = cv2.VideoCapture(0) #video objectimizi oluşturduk
 
 mpHands = mp.solutions.hands
 hands = mpHands.Hands() #hand objectimizi oluşturduk
